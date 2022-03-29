@@ -1,0 +1,26 @@
+:host{
+  display: block;
+}
+.gl-wrapper{
+  position: relative;
+  width: 100%;
+}
+input{
+  width: inherit;
+}
+ul{
+  list-style: none;
+  border: 1px solid #eee;
+  background-color: white;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: inherit;
+}
+li{
+  padding: 10px;
+  cursor: pointer;
+}
+li:hover{
+  background-color: #eee;
+}
